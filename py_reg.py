@@ -16,3 +16,4 @@ wrg.SetValueEx(key_1, "value Two", 0, wrg.REG_SZ,
   
 if key_1:
     wrg.CloseKey(key_1)
+    
