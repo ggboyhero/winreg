@@ -10,9 +10,9 @@ key_1 = wrg.CreateKey(soft, "Geeks")
   
 # Creating values in Geeks
 wrg.SetValueEx(key_1, "value One", 0, wrg.REG_SZ,
-               "GeeksforGeeks is Best")
+               "Git")
 wrg.SetValueEx(key_1, "value Two", 0, wrg.REG_SZ,
-               "Participate in Technical Scripter")
+               "VSCode")
   
 if key_1:
     wrg.CloseKey(key_1)
